@@ -120,7 +120,7 @@ end
 local function GetLightStatusIcon()
     if not _lightIcon or not _lightIcon:IsValid() then
         _lightIcon = GetMountedAsset(
-            "/Game/Mods/PalworldMod/T_icon_StatusEffect_Light",
+            "/Game/Mods/ElementalSystemExpanded/T_icon_StatusEffect_Light",
             "T_icon_StatusEffect_Light")
     end
     return _lightIcon
@@ -129,7 +129,7 @@ end
 local function GetLightVFXBP()
     if not _lightVfxClass or not _lightVfxClass:IsValid() then
         _lightVfxClass = GetMountedAsset(
-            "/Game/Mods/PalworldMod/LightVFX/BP_VisualEffect_Status_Light",
+            "/Game/Mods/ElementalSystemExpanded/LightVFX/BP_VisualEffect_Status_Light",
             "BP_VisualEffect_Status_Light_C")
     end
     return _lightVfxClass
@@ -138,7 +138,7 @@ end
 local function GetLightCameraVFXBP()
     if not _lightCameraVfxClass or not _lightCameraVfxClass:IsValid() then
         _lightCameraVfxClass = GetMountedAsset(
-            "/Game/Mods/PalworldMod/LightVFX/BP_VisualEffect_CameraLightVignette",
+            "/Game/Mods/ElementalSystemExpanded/LightVFX/BP_VisualEffect_CameraLightVignette",
             "BP_VisualEffect_CameraLightVignette_C")
     end
     return _lightCameraVfxClass
@@ -172,7 +172,7 @@ local function RegisterLightVFXDatabaseClass(WorldContextObject)
     local LightClass = _lightVfxClass
     if not LightClass or not LightClass:IsValid() then
         LightClass = GetMountedAsset(
-            "/Game/Mods/PalworldMod/LightVFX/BP_VisualEffect_Status_Light",
+            "/Game/Mods/ElementalSystemExpanded/LightVFX/BP_VisualEffect_Status_Light",
             "BP_VisualEffect_Status_Light_C")
         _lightVfxClass = LightClass
     end
@@ -498,10 +498,10 @@ local function RegisterLightIconHooks()
     end
 
     local beginPath =
-        "/Game/Mods/PalworldMod/LightVFX/BP_VisualEffect_Status_Light." ..
+        "/Game/Mods/ElementalSystemExpanded/LightVFX/BP_VisualEffect_Status_Light." ..
         "BP_VisualEffect_Status_Light_C:OnBeginVisualEffect"
     local endPath =
-        "/Game/Mods/PalworldMod/LightVFX/BP_VisualEffect_Status_Light." ..
+        "/Game/Mods/ElementalSystemExpanded/LightVFX/BP_VisualEffect_Status_Light." ..
         "BP_VisualEffect_Status_Light_C:OnEndVisualEffect"
 
     local okBegin = SafeRegisterHook(beginPath, function(Context)

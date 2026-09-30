@@ -26,9 +26,9 @@ Key features:
 
 About Dragon element. So, effectively, vanilla Dragon carries burn aggregate and looks like purple flames, okay, fair enough, then:
 
-Water + Dragon → Steam Burst — converts water into vapor, AOE, 0.5U Water.
-Earth + Dragon → Lava Burst — violently melts/erupts earth, AOE, 0.5U Fire.
-Leaf + Dragon → Flammable Spray / Wildfire Burst — spray biomass combustion, AOE, 0.5U Fire.
-Fire + Dragon → Flashover — runaway combustion wave, AOE, 0.5U Fire.
-Ice + Dragon → Thermal Shock — violent thermal fracture, AOE, 0.5U Ice.
-Electric + Dragon → Arc Burst — electrical discharge, AOE, 0.5U Electric.
+- Water + Dragon → Steam Burst — converts water into vapor, AOE, 0.5U Water.
+- Earth + Dragon → Lava Burst — violently melts/erupts earth, AOE, 0.5U Fire.
+- Leaf + Dragon → Flammable Spray / Wildfire Burst — spray biomass combustion, AOE, 0.5U Fire.
+- Fire + Dragon → Flashover — runaway combustion wave, AOE, 0.5U Fire.
+- Ice + Dragon → Thermal Shock — violent thermal fracture, AOE, 0.5U Ice.
+- Electric + Dragon → Arc Burst — electrical discharge, AOE, 0.5U Electric.
